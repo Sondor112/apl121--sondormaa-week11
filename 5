@@ -1,0 +1,7 @@
+void count_up(int n) {
+    if (n <= 0) {
+        return;
+    }
+    count_up(n - 1);
+    printf("%d\n", n);
+}
